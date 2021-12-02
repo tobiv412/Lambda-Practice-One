@@ -12,31 +12,8 @@
         "Resource": "*"
       }
     ]
-  
-    
-    {
-      "Sid" : "s3List",
-      "Action" : [
-        "s3:List*"
-      ],
-      "Effect" : "Allow",
-      "Resource" : "*"
-    },
-    
-    {
-      "Sid" : "s3access",
-      "Action" : [
-        "s3:GetObject",
-        "s3:PutObject",
-      ],
-      "Effect" : "Allow",
-      "Resource" : [
-        "arn:aws:s3:::s3-bucket-lambda-412", 
-        "arn:aws:s3:::s3-bucket-lambda-412/*"
-      ]
-    }
-  ]
 }
-}     
+  
+     
 
 
