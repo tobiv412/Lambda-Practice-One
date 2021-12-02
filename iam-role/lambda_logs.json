@@ -31,12 +31,12 @@
       ],
       "Effect" : "Allow",
       "Resource" : [
-        "arn:aws:s3:::${var.pet_bucket_name}", 
-        "arn:aws:s3:::${var.pet_bucket_name}/*"
+        "arn:aws:s3:::s3-bucket-lambda-412", 
+        "arn:aws:s3:::s3-bucket-lambda-412/*"
       ]
     }
   ]
-})
+}
 }     
 
 
