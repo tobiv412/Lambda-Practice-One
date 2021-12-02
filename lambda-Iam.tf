@@ -15,10 +15,10 @@ resource "aws_iam_role" "lambda_role" {
 
 }
 
-resource "aws_iam_role_policy_attachment" "lambda_role_policy_attach" {
-  role       = aws_iam_role.lambda_role.name
-  policy_arn = aws_iam_policy.lambda_policy.arn
-}
+#resource "aws_iam_role_policy_attachment" "lambda_role_policy_attach" {
+  #role       = aws_iam_role.lambda_role.name
+  #policy_arn = aws_iam_role_policy.lambda_policy.arn
+#}
 
 #comeback to this S3 BUCKET PERMISSIONS
     
