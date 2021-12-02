@@ -1,5 +1,5 @@
 resource "aws_lambda_function" "pet_lambda" {
-  filename      = "${path.module}.pet_info.output_path"
+  filename      = data.archive_file.pet_info.output_path
   function_name = "pet_info"
   role          = aws_iam_role.lambda_role.arn
   handler       = "pet_info"
