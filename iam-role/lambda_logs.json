@@ -2,7 +2,7 @@
     "Version": "2012-10-17",
     "Statement": [
       {
-        "Sid": "Stmt1638283097368",
+        "Sid": "Cloud Watch log-access",
         "Action": [
           "logs:CreateLogGroup",
           "logs:CreateLogStream",
