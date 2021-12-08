@@ -7,7 +7,7 @@ resource "aws_s3_bucket" "s3-bucket-lambda-412" {
 
 
   tags = {
-    Name    = "pet_bucket"
+    Name    = "s3-bucket-lambda-412"
     Enivorment = "Test"
  }
 }
