@@ -2,8 +2,8 @@
 
 data "archive_file" "pet_info" {
   type        = "zip"
-  source_file = "${path.module}/files/pet_info.py"                #SOURCE OF THE FILE
-  output_path = "${path.module}/files/pet_info.zip"         #DESTINATION OF THE GENERATED FILE (.zip)
+  source_file = "${path.module}/files/pet_info.py"  #SOURCE OF THE FILE
+  output_path = "${path.module}/files/pet_info.zip" #DESTINATION OF THE GENERATED FILE (.zip)
 }
 
 

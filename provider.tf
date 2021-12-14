@@ -1,4 +1,4 @@
 # Deploying to AWS CONSOLE
 provider "aws" {
-   region = "eu-west-1"
- }
+  region = "eu-west-1"
+}
